@@ -348,42 +348,42 @@ function App() {
                       value="url"
                       className="flex items-center gap-1"
                     >
-                      <FileText className="h-4 w-4" />
+                      <FileText className="hidden md:block h-4 w-4" />
                       URL
                     </TabsTrigger>
                     <TabsTrigger
                       value="wifi"
                       className="flex items-center gap-1"
                     >
-                      <Wifi className="h-4 w-4" />
+                      <Wifi className="hidden md:block h-4 w-4" />
                       WiFi
                     </TabsTrigger>
                     <TabsTrigger
                       value="contact"
                       className="flex items-center gap-1"
                     >
-                      <User className="h-4 w-4" />
+                      <User className="hidden md:block h-4 w-4" />
                       Contact
                     </TabsTrigger>
                     <TabsTrigger
                       value="text"
                       className="flex items-center gap-1"
                     >
-                      <FileText className="h-4 w-4" />
+                      <FileText className="hidden md:block h-4 w-4" />
                       Text
                     </TabsTrigger>
                     <TabsTrigger
                       value="email"
                       className="flex items-center gap-1"
                     >
-                      <Mail className="h-4 w-4" />
+                      <Mail className="hidden md:block h-4 w-4" />
                       Email
                     </TabsTrigger>
                     <TabsTrigger
                       value="sms"
                       className="flex items-center gap-1"
                     >
-                      <Phone className="h-4 w-4" />
+                      <Phone className="hidden md:block h-4 w-4" />
                       SMS
                     </TabsTrigger>
                   </TabsList>
